@@ -26,6 +26,7 @@ RegisterNumber:23013947
 
 
 ##  CODE:
+```
 module verilog1(a,b,c,d,w,x,y,z,F1,F2);
 input a,b,c,d,w,x,y,z;
 output F1,F2;
@@ -43,19 +44,19 @@ assign B4= (w&(~x)&y);
 assign B5= (w&y&z);
 assign F2= B1|B2|B3|B4|B5;
 endmodule
-
+```
 
 ##  TRUTH TABLE:
 
 ![image](https://github.com/Jeecikasrina23013947/Experiment--02-Implementation-of-combinational-logic-/assets/148515300/b9975783-14f7-4f67-8c32-4a09e3b8c82f)
 
 
-##RTL VIEW:
+##  RTL VIEW:
 
 ![image](https://github.com/Jeecikasrina23013947/Experiment--02-Implementation-of-combinational-logic-/assets/148515300/70cf4e8f-9c2e-435b-896d-5e92d7ea9a57)
 
 
-##OUTPUT:
+##  OUTPUT:
 
 ![image](https://github.com/Jeecikasrina23013947/Experiment--02-Implementation-of-combinational-logic-/assets/148515300/72a9eb7f-cb29-42b6-b3c0-4cc0d4f1563f)
 
